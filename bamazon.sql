@@ -1,12 +1,33 @@
-DROP DATABASE IF EXISTS bamazon;
-CREATE DATABASE bamazon;
-USE bamazon;
+DROP DATABASE IF EXISTS bamazonDB;
 
-CREATE TABLE products (
-item_id INTEGER(11) AUTO_INCREMENT NOT NULL,
-	product_name VARCHAR(30) NOT NULL,
-	department_name VARCHAR(20) NOT NULL,
-	price DECIMAL(10,2) NOT NULL,
-	stock_quantity INTEGER(11) NOT NULL,
-	PRIMARY KEY (item_id)
+CREATE DATABASE bamazonDB;
+
+USE bamazonDB;
+
+CREATE TABLE Products (
+ item_id INTEGER NOT NULL AUTO_INCREMENT,
+ product_name VARCHAR (50),
+ department_name VARCHAR (50),
+ price DECIMAL(10,2),
+ stock_quantity INTEGER (10) NULL,
+ 
+ PRIMARY KEY (item_id)
+ 
 );
+
+
+
+INSERT INTO Products (product_name, department_name, price, stock_quantity)
+VALUES ("sterilite pencil box", "school and office supplies", 1.00, 500),
+("box file", "school and office supplies", 16.00, 100),
+("stoneware pencil cup", "school and office supplies", 8.00, 80),
+("dell e7440 windows 10 pro laptop", "electronics", 530.00, 100),
+("gopro hero session", "electronics", 150.00, 50),
+("skyline rolling duffel", "luggage", 40.00, 30),
+("greenpan rio 12pc cookware set", "kitchen and dining", 160.00, 50),
+("atlantis salad bowl and tongs", "kitchen and dining", 26.00, 30),
+("cetaphil gentle clean cleanser", "beauty", 4.00, 200),
+("claritin 24 hour non-drowsy allergy relief", "health", 19.00, 200),
+("tazo passion herbal tea", "food and beverage", 4.00, 50);
+
+SELECT *FROM Products;
