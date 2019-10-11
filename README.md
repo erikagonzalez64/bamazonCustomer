@@ -2,7 +2,7 @@
 # Overview
   Bamazon is an Amazon-like storefront which uses MySQL and node.js. The app will take in orders from customers and will update the amount of items left from the store's inventory.
 # Instructions
-  The database is called 'bamazon_DB' with a Table called 'products'. Schema is attached in the schema.js file.
+  The database is called 'bamazon_DB' with a Table called 'products'. Schema is attached in the bamazon.sql file.
 
 Running the Node application called 'bamazonCustomer.js' application will first display all of the items available for sale. Include the ids, names, prices and quantities of products for sale.
 
