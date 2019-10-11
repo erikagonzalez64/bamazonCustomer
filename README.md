@@ -9,17 +9,17 @@
 * Once the customer has placed the order, the application will check if they store has that many product items to meet the customer's request. If not, the app will log the phrase Insufficient quantity, and prevent the order from going through. The app requires 'npm inquirer' and 'npm mysql'.
 
 # Screenshots of my work :)
-* The app first displays all items available for sale in the bamazon inventory.
+1. The app first displays all items available for sale in the bamazon inventory.
 
-----insert pic of table of items-------
+----insert pic of table of items-------   ![GitHub Logo](/images/logo.png)   Format: ![Alt Text](url)
 
 
-* The app then prompts users with two messages, to place an order. The cost of the purchase is also displayed.
+2. The app then prompts users with two messages, to place an order. The cost of the purchase is also displayed.
 
 ---insert picture of both questions answered and the data it gives you back--------
 
 
-* The app then updates the database to reflect the remaining inventory.
+3. The app then updates the database to reflect the remaining inventory.
 
 
 -----insert the pic of work updated -------------
