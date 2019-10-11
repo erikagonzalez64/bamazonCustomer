@@ -12,14 +12,13 @@
 1. The app first displays all items available for sale in the bamazon inventory.
 
 
-[I'm an inline-style link](https://github.com/erikagonzalez64/bamazonCustomer/blob/master/images/tablescreenshot.png)
+[Link to my data/table screenshot](https://github.com/erikagonzalez64/bamazonCustomer/blob/master/images/tablescreenshot.png)
 
 2. The app then prompts users with two messages, to place an order. The cost of the purchase is also displayed.
 
----insert picture of both questions answered and the data it gives you back--------
-
+[Link to questions answered screenshot](https://github.com/erikagonzalez64/bamazonCustomer/blob/master/images/questionsanswered.png)
 
 3. The app then updates the database to reflect the remaining inventory.
 
 
------insert the pic of work updated -------------
+[Link to my table being updated screenshot](https://github.com/erikagonzalez64/bamazonCustomer/blob/master/images/updatedtable.png)
