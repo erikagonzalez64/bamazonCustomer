@@ -1,12 +1,16 @@
 # BamazonCustomer
 # Overview
   Bamazon is an Amazon-like storefront which uses MySQL and node.js. The app will take in orders from customers and will update the amount of items left from the store's inventory.
-# Bamazon Customer View
-* Running bamazonCustomer.js will display all of the items available for sale. It will include the ids, names, prices of products for sale and the stock quantity.
-*The app will then promt users with two messages.
-  1. The first message will ask for the ID of the product that they would like to buy.
-  2. The second message will ask how many units of the product you would like to buy.
-* Once the customer has placed the order, the application will check if they store has that many product items to meet the customer's request. If not, the app will log the phrase Insufficient quantity, and prevent the order from going through. The app requires 'npm inquirer' and 'npm mysql'.
+# Instructions
+  The database is called 'bamazon_DB' with a Table called 'products'. Schema is attached in the schema.js file.
+
+Running the Node application called 'bamazonCustomer.js' application will first display all of the items available for sale. Include the ids, names, prices and quantities of products for sale.
+
+Bamazon then prompts users with two messages: * The first ask them the ID of the product they would like to buy. * The second message should ask how many units of the product they would like to buy.
+
+Once an order has been placed the application checks to see if the store has enough of the product to meet the user's request. If not, the app log the insufficient stock and recursively ask the item ID again.
+
+However, if the store does have enough of the product, It will fulfill the user’s order showing the total price and quantity of the order as well as updating the SQL database to reflect the new quantity.
 
 # Screenshots of my work :)
 1. The app first displays all items available for sale in the bamazon inventory.
