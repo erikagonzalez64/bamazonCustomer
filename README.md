@@ -11,9 +11,8 @@
 # Screenshots of my work :)
 1. The app first displays all items available for sale in the bamazon inventory.
 
-![alt text](http://url/to/tablescreenshot.png)
-----insert pic of table of items-------   ![GitHub Logo](tablescreenshot.png)   Format: ![Alt Text](url)
 
+[I'm an inline-style link](https://github.com/erikagonzalez64/bamazonCustomer/blob/master/images/tablescreenshot.png)
 
 2. The app then prompts users with two messages, to place an order. The cost of the purchase is also displayed.
 
